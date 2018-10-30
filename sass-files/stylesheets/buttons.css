@@ -1,0 +1,12 @@
+/* line 1, ../sass/buttons.scss */
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 7, ../sass/buttons.scss */
+.btn-alt {
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}

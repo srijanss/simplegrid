@@ -1,0 +1,24 @@
+@import 'reset';
+@import 'grid';
+
+body {
+  min-height: 100vh;
+  background: black;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@import 'typography';
+@import 'buttons';
+
+.clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+  clear: both;
+  *zoom: 1;
+}

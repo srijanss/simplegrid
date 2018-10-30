@@ -1,0 +1,274 @@
+@mixin container($margin-gap: 35%, $gap: 10px) {
+  width: 100%;;
+  margin: 0 auto;
+  padding-left: $gap;
+  padding-right: $gap;
+
+  @media only screen and (min-width: 768px) {
+    width: 100% - $margin-gap;
+  }
+}
+@mixin row() {
+  width: 100%;
+  font-size: 0; //This hack of setting the font-size to zero makes the space disappear.
+}
+
+@mixin col($col, $sum, $gap: 1em, $margin-gap: 0.2%, $align: top, $first: false, $last: false) {
+  width: 100% - $margin-gap * 2;
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: $align;
+  box-sizing: border-box;
+  padding: $gap;
+  // padding-left: if($first, 0, $gap);
+  // padding-right: if($last, 0, $gap);
+  margin: $margin-gap;
+  // background: yellow;
+  border: 1px solid white;
+  color: white;
+
+  @media only screen and (min-width: 768px) {
+    width: percentage($col/$sum) - $margin-gap * 2;
+    vertical-align: $align;
+  }
+}
+
+@mixin box-size($box-type) {
+  -webkit-box-sizing: $box-type;
+  -moz-box-sizing: $box-type;
+  box-sizing: $box-type;
+}
+
+*,
+*:before,
+*:after {
+  @include box-size(border-box);
+}
+
+.container {
+  @include container;
+}
+
+.row {
+  @include row;
+}
+
+// Equal width columns
+// Single Column Row
+.col-1-1 {
+  @include col(1, 1, $first: true, $last: true);
+}
+
+// Two Column Row
+.col-1-2 {
+  @include col(1, 2, $first: true);
+}
+.col-2-2 {
+  @include col(1, 2, $last: true);
+}
+
+// Three Column Row
+.col-1-3 {
+  @include col(1, 3, $first: true);
+}
+.col-2-3 {
+  @include col(1, 3);
+}
+.col-3-3 {
+  @include col(1, 3, $last: true);
+}
+
+// Four Column Row
+.col-1-4 {
+  @include col(1, 4, $first: true);
+}
+.col-2-4,
+.col-3-4 {
+  @include col(1, 4);
+}
+.col-4-4 {
+  @include col(1, 4, $last: true);
+}
+
+// Five Column Row
+.col-1-5 {
+  @include col(1, 5, $first: true);
+}
+.col-2-5,
+.col-3-5,
+.col-4-5 {
+  @include col(1, 5);
+}
+.col-5-5 {
+  @include col(1, 5, $last: true);
+}
+
+// Six Column Row
+.col-1-6 {
+  @include col(1, 6, $first: true);
+}
+.col-2-6,
+.col-3-6,
+.col-4-6,
+.col-5-6 {
+  @include col(1, 6);
+}
+.col-6-6 {
+  @include col(1, 6, $last: true);
+}
+
+// Seven Column Row
+.col-1-7 {
+  @include col(1, 7, $first: true);
+}
+.col-2-7,
+.col-3-7,
+.col-4-7,
+.col-5-7,
+.col-6-7 {
+  @include col(1, 7);
+}
+.col-7-7 {
+  @include col(1, 7, $last: true);
+}
+
+// Eight Column Row
+.col-1-8 {
+  @include col(1, 8, $first: true);
+}
+.col-2-8,
+.col-3-8,
+.col-4-8,
+.col-5-8,
+.col-6-8,
+.col-7-8 {
+  @include col(1, 8);
+}
+.col-8-8 {
+  @include col(1, 8, $last: true);
+}
+
+// Nine Column Row
+.col-1-9 {
+  @include col(1, 9, $first: true);
+}
+.col-2-9,
+.col-3-9,
+.col-4-9,
+.col-5-9,
+.col-6-9,
+.col-7-9,
+.col-8-9 {
+  @include col(1, 9);
+}
+.col-9-9 {
+  @include col(1, 9, $last: true);
+}
+
+// Ten Column Row
+.col-1-10 {
+  @include col(1, 10, $first: true);
+}
+.col-2-10,
+.col-3-10,
+.col-4-10,
+.col-5-10,
+.col-6-10,
+.col-7-10,
+.col-8-10,
+.col-9-10 {
+  @include col(1, 10);
+}
+.col-10-10 {
+  @include col(1, 10, $last: true);
+}
+
+// Eleven Column Row
+.col-1-11 {
+  @include col(1, 11, $first: true);
+}
+.col-2-11,
+.col-3-11,
+.col-4-11,
+.col-5-11,
+.col-6-11,
+.col-7-11,
+.col-8-11,
+.col-9-11,
+.col-10-11 {
+  @include col(1, 11);
+}
+.col-11-11 {
+  @include col(1, 11, $last: true);
+}
+
+// Twelve Column Row
+.col-1-12 {
+  @include col(1, 12, $first: true);
+}
+.col-2-12,
+.col-3-12,
+.col-4-12,
+.col-5-12,
+.col-6-12,
+.col-7-12,
+.col-8-12,
+.col-9-12,
+.col-10-12,
+.col-11-12 {
+  @include col(1, 12);
+}
+.col-12-12 {
+  @include col(1, 12, $last: true);
+}
+
+// Variable width Columns
+
+// Column covering one block out of 12
+.col-1 {
+  @include col(1, 12);
+}
+// Column covering two blocks out of 12
+.col-2 {
+  @include col(2, 12);
+}
+// Column covering three blocks out of 12
+.col-3 {
+  @include col(3, 12);
+}
+// Column covering four blocks out of 12
+.col-4 {
+  @include col(4, 12);
+}
+// Column covering five blocks out of 12
+.col-5 {
+  @include col(5, 12);
+}
+// Column covering six blocks out of 12
+.col-6 {
+  @include col(6, 12);
+}
+// Column covering seven blocks out of 12
+.col-7 {
+  @include col(7, 12);
+}
+// Column covering eight blocks out of 12
+.col-8 {
+  @include col(8, 12);
+}
+// Column covering nine blocks out of 12
+.col-9 {
+  @include col(9, 12);
+}
+// Column covering ten blocks out of 12
+.col-10 {
+  @include col(10, 12);
+}
+// Column covering eleven blocks out of 12
+.col-11 {
+  @include col(11, 12);
+}
+// Column covering twelve blocks out of 12
+.col-12 {
+  @include col(12, 12);
+}
