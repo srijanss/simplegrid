@@ -85,13 +85,19 @@ table {
   }
 }
 
-/* line 52, ../sass/grid.scss */
+/* line 51, ../sass/grid.scss */
+.main {
+  background: #fff;
+  min-width: 75%;
+}
+
+/* line 56, ../sass/grid.scss */
 .row {
   width: 100%;
   font-size: 0;
 }
 
-/* line 58, ../sass/grid.scss */
+/* line 62, ../sass/grid.scss */
 .col-1-1 {
   width: 99.6%;
   font-size: 1rem;
@@ -100,18 +106,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 58, ../sass/grid.scss */
+  /* line 62, ../sass/grid.scss */
   .col-1-1 {
     width: 99.6%;
     vertical-align: top;
   }
 }
 
-/* line 63, ../sass/grid.scss */
+/* line 67, ../sass/grid.scss */
 .col-1-2 {
   width: 99.6%;
   font-size: 1rem;
@@ -120,18 +125,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 63, ../sass/grid.scss */
+  /* line 67, ../sass/grid.scss */
   .col-1-2 {
     width: 49.6%;
     vertical-align: top;
   }
 }
 
-/* line 66, ../sass/grid.scss */
+/* line 70, ../sass/grid.scss */
 .col-2-2 {
   width: 99.6%;
   font-size: 1rem;
@@ -140,18 +144,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 66, ../sass/grid.scss */
+  /* line 70, ../sass/grid.scss */
   .col-2-2 {
     width: 49.6%;
     vertical-align: top;
   }
 }
 
-/* line 71, ../sass/grid.scss */
+/* line 75, ../sass/grid.scss */
 .col-1-3 {
   width: 99.6%;
   font-size: 1rem;
@@ -160,18 +163,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 71, ../sass/grid.scss */
+  /* line 75, ../sass/grid.scss */
   .col-1-3 {
     width: 32.93333%;
     vertical-align: top;
   }
 }
 
-/* line 74, ../sass/grid.scss */
+/* line 78, ../sass/grid.scss */
 .col-2-3 {
   width: 99.6%;
   font-size: 1rem;
@@ -180,18 +182,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 74, ../sass/grid.scss */
+  /* line 78, ../sass/grid.scss */
   .col-2-3 {
     width: 32.93333%;
     vertical-align: top;
   }
 }
 
-/* line 77, ../sass/grid.scss */
+/* line 81, ../sass/grid.scss */
 .col-3-3 {
   width: 99.6%;
   font-size: 1rem;
@@ -200,18 +201,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 77, ../sass/grid.scss */
+  /* line 81, ../sass/grid.scss */
   .col-3-3 {
     width: 32.93333%;
     vertical-align: top;
   }
 }
 
-/* line 82, ../sass/grid.scss */
+/* line 86, ../sass/grid.scss */
 .col-1-4 {
   width: 99.6%;
   font-size: 1rem;
@@ -220,18 +220,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 82, ../sass/grid.scss */
+  /* line 86, ../sass/grid.scss */
   .col-1-4 {
     width: 24.6%;
     vertical-align: top;
   }
 }
 
-/* line 86, ../sass/grid.scss */
+/* line 90, ../sass/grid.scss */
 .col-2-4,
 .col-3-4 {
   width: 99.6%;
@@ -241,11 +240,10 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 86, ../sass/grid.scss */
+  /* line 90, ../sass/grid.scss */
   .col-2-4,
   .col-3-4 {
     width: 24.6%;
@@ -253,7 +251,7 @@ table {
   }
 }
 
-/* line 89, ../sass/grid.scss */
+/* line 93, ../sass/grid.scss */
 .col-4-4 {
   width: 99.6%;
   font-size: 1rem;
@@ -262,18 +260,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 89, ../sass/grid.scss */
+  /* line 93, ../sass/grid.scss */
   .col-4-4 {
     width: 24.6%;
     vertical-align: top;
   }
 }
 
-/* line 94, ../sass/grid.scss */
+/* line 98, ../sass/grid.scss */
 .col-1-5 {
   width: 99.6%;
   font-size: 1rem;
@@ -282,18 +279,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 94, ../sass/grid.scss */
+  /* line 98, ../sass/grid.scss */
   .col-1-5 {
     width: 19.6%;
     vertical-align: top;
   }
 }
 
-/* line 99, ../sass/grid.scss */
+/* line 103, ../sass/grid.scss */
 .col-2-5,
 .col-3-5,
 .col-4-5 {
@@ -304,11 +300,10 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 99, ../sass/grid.scss */
+  /* line 103, ../sass/grid.scss */
   .col-2-5,
   .col-3-5,
   .col-4-5 {
@@ -317,7 +312,7 @@ table {
   }
 }
 
-/* line 102, ../sass/grid.scss */
+/* line 106, ../sass/grid.scss */
 .col-5-5 {
   width: 99.6%;
   font-size: 1rem;
@@ -326,18 +321,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 102, ../sass/grid.scss */
+  /* line 106, ../sass/grid.scss */
   .col-5-5 {
     width: 19.6%;
     vertical-align: top;
   }
 }
 
-/* line 107, ../sass/grid.scss */
+/* line 111, ../sass/grid.scss */
 .col-1-6 {
   width: 99.6%;
   font-size: 1rem;
@@ -346,18 +340,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 107, ../sass/grid.scss */
+  /* line 111, ../sass/grid.scss */
   .col-1-6 {
     width: 16.26667%;
     vertical-align: top;
   }
 }
 
-/* line 113, ../sass/grid.scss */
+/* line 117, ../sass/grid.scss */
 .col-2-6,
 .col-3-6,
 .col-4-6,
@@ -369,11 +362,10 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 113, ../sass/grid.scss */
+  /* line 117, ../sass/grid.scss */
   .col-2-6,
   .col-3-6,
   .col-4-6,
@@ -383,7 +375,7 @@ table {
   }
 }
 
-/* line 116, ../sass/grid.scss */
+/* line 120, ../sass/grid.scss */
 .col-6-6 {
   width: 99.6%;
   font-size: 1rem;
@@ -392,18 +384,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 116, ../sass/grid.scss */
+  /* line 120, ../sass/grid.scss */
   .col-6-6 {
     width: 16.26667%;
     vertical-align: top;
   }
 }
 
-/* line 121, ../sass/grid.scss */
+/* line 125, ../sass/grid.scss */
 .col-1-7 {
   width: 99.6%;
   font-size: 1rem;
@@ -412,18 +403,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 121, ../sass/grid.scss */
+  /* line 125, ../sass/grid.scss */
   .col-1-7 {
     width: 13.88571%;
     vertical-align: top;
   }
 }
 
-/* line 128, ../sass/grid.scss */
+/* line 132, ../sass/grid.scss */
 .col-2-7,
 .col-3-7,
 .col-4-7,
@@ -436,11 +426,10 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 128, ../sass/grid.scss */
+  /* line 132, ../sass/grid.scss */
   .col-2-7,
   .col-3-7,
   .col-4-7,
@@ -451,7 +440,7 @@ table {
   }
 }
 
-/* line 131, ../sass/grid.scss */
+/* line 135, ../sass/grid.scss */
 .col-7-7 {
   width: 99.6%;
   font-size: 1rem;
@@ -460,18 +449,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 131, ../sass/grid.scss */
+  /* line 135, ../sass/grid.scss */
   .col-7-7 {
     width: 13.88571%;
     vertical-align: top;
   }
 }
 
-/* line 136, ../sass/grid.scss */
+/* line 140, ../sass/grid.scss */
 .col-1-8 {
   width: 99.6%;
   font-size: 1rem;
@@ -480,18 +468,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 136, ../sass/grid.scss */
+  /* line 140, ../sass/grid.scss */
   .col-1-8 {
     width: 12.1%;
     vertical-align: top;
   }
 }
 
-/* line 144, ../sass/grid.scss */
+/* line 148, ../sass/grid.scss */
 .col-2-8,
 .col-3-8,
 .col-4-8,
@@ -505,11 +492,10 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 144, ../sass/grid.scss */
+  /* line 148, ../sass/grid.scss */
   .col-2-8,
   .col-3-8,
   .col-4-8,
@@ -521,7 +507,7 @@ table {
   }
 }
 
-/* line 147, ../sass/grid.scss */
+/* line 151, ../sass/grid.scss */
 .col-8-8 {
   width: 99.6%;
   font-size: 1rem;
@@ -530,18 +516,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 147, ../sass/grid.scss */
+  /* line 151, ../sass/grid.scss */
   .col-8-8 {
     width: 12.1%;
     vertical-align: top;
   }
 }
 
-/* line 152, ../sass/grid.scss */
+/* line 156, ../sass/grid.scss */
 .col-1-9 {
   width: 99.6%;
   font-size: 1rem;
@@ -550,18 +535,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 152, ../sass/grid.scss */
+  /* line 156, ../sass/grid.scss */
   .col-1-9 {
     width: 10.71111%;
     vertical-align: top;
   }
 }
 
-/* line 161, ../sass/grid.scss */
+/* line 165, ../sass/grid.scss */
 .col-2-9,
 .col-3-9,
 .col-4-9,
@@ -576,11 +560,10 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 161, ../sass/grid.scss */
+  /* line 165, ../sass/grid.scss */
   .col-2-9,
   .col-3-9,
   .col-4-9,
@@ -593,7 +576,7 @@ table {
   }
 }
 
-/* line 164, ../sass/grid.scss */
+/* line 168, ../sass/grid.scss */
 .col-9-9 {
   width: 99.6%;
   font-size: 1rem;
@@ -602,18 +585,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 164, ../sass/grid.scss */
+  /* line 168, ../sass/grid.scss */
   .col-9-9 {
     width: 10.71111%;
     vertical-align: top;
   }
 }
 
-/* line 169, ../sass/grid.scss */
+/* line 173, ../sass/grid.scss */
 .col-1-10 {
   width: 99.6%;
   font-size: 1rem;
@@ -622,18 +604,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 169, ../sass/grid.scss */
+  /* line 173, ../sass/grid.scss */
   .col-1-10 {
     width: 9.6%;
     vertical-align: top;
   }
 }
 
-/* line 179, ../sass/grid.scss */
+/* line 183, ../sass/grid.scss */
 .col-2-10,
 .col-3-10,
 .col-4-10,
@@ -649,11 +630,10 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 179, ../sass/grid.scss */
+  /* line 183, ../sass/grid.scss */
   .col-2-10,
   .col-3-10,
   .col-4-10,
@@ -667,7 +647,7 @@ table {
   }
 }
 
-/* line 182, ../sass/grid.scss */
+/* line 186, ../sass/grid.scss */
 .col-10-10 {
   width: 99.6%;
   font-size: 1rem;
@@ -676,18 +656,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 182, ../sass/grid.scss */
+  /* line 186, ../sass/grid.scss */
   .col-10-10 {
     width: 9.6%;
     vertical-align: top;
   }
 }
 
-/* line 187, ../sass/grid.scss */
+/* line 191, ../sass/grid.scss */
 .col-1-11 {
   width: 99.6%;
   font-size: 1rem;
@@ -696,18 +675,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 187, ../sass/grid.scss */
+  /* line 191, ../sass/grid.scss */
   .col-1-11 {
     width: 8.69091%;
     vertical-align: top;
   }
 }
 
-/* line 198, ../sass/grid.scss */
+/* line 202, ../sass/grid.scss */
 .col-2-11,
 .col-3-11,
 .col-4-11,
@@ -724,11 +702,10 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 198, ../sass/grid.scss */
+  /* line 202, ../sass/grid.scss */
   .col-2-11,
   .col-3-11,
   .col-4-11,
@@ -743,7 +720,7 @@ table {
   }
 }
 
-/* line 201, ../sass/grid.scss */
+/* line 205, ../sass/grid.scss */
 .col-11-11 {
   width: 99.6%;
   font-size: 1rem;
@@ -752,18 +729,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 201, ../sass/grid.scss */
+  /* line 205, ../sass/grid.scss */
   .col-11-11 {
     width: 8.69091%;
     vertical-align: top;
   }
 }
 
-/* line 206, ../sass/grid.scss */
+/* line 210, ../sass/grid.scss */
 .col-1-12 {
   width: 99.6%;
   font-size: 1rem;
@@ -772,18 +748,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 206, ../sass/grid.scss */
+  /* line 210, ../sass/grid.scss */
   .col-1-12 {
     width: 7.93333%;
     vertical-align: top;
   }
 }
 
-/* line 218, ../sass/grid.scss */
+/* line 222, ../sass/grid.scss */
 .col-2-12,
 .col-3-12,
 .col-4-12,
@@ -801,11 +776,10 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 218, ../sass/grid.scss */
+  /* line 222, ../sass/grid.scss */
   .col-2-12,
   .col-3-12,
   .col-4-12,
@@ -821,7 +795,7 @@ table {
   }
 }
 
-/* line 221, ../sass/grid.scss */
+/* line 225, ../sass/grid.scss */
 .col-12-12 {
   width: 99.6%;
   font-size: 1rem;
@@ -830,18 +804,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 221, ../sass/grid.scss */
+  /* line 225, ../sass/grid.scss */
   .col-12-12 {
     width: 7.93333%;
     vertical-align: top;
   }
 }
 
-/* line 228, ../sass/grid.scss */
+/* line 232, ../sass/grid.scss */
 .col-1 {
   width: 99.6%;
   font-size: 1rem;
@@ -850,18 +823,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 228, ../sass/grid.scss */
+  /* line 232, ../sass/grid.scss */
   .col-1 {
     width: 7.93333%;
     vertical-align: top;
   }
 }
 
-/* line 232, ../sass/grid.scss */
+/* line 236, ../sass/grid.scss */
 .col-2 {
   width: 99.6%;
   font-size: 1rem;
@@ -870,18 +842,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 232, ../sass/grid.scss */
+  /* line 236, ../sass/grid.scss */
   .col-2 {
     width: 16.26667%;
     vertical-align: top;
   }
 }
 
-/* line 236, ../sass/grid.scss */
+/* line 240, ../sass/grid.scss */
 .col-3 {
   width: 99.6%;
   font-size: 1rem;
@@ -890,18 +861,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 236, ../sass/grid.scss */
+  /* line 240, ../sass/grid.scss */
   .col-3 {
     width: 24.6%;
     vertical-align: top;
   }
 }
 
-/* line 240, ../sass/grid.scss */
+/* line 244, ../sass/grid.scss */
 .col-4 {
   width: 99.6%;
   font-size: 1rem;
@@ -910,18 +880,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 240, ../sass/grid.scss */
+  /* line 244, ../sass/grid.scss */
   .col-4 {
     width: 32.93333%;
     vertical-align: top;
   }
 }
 
-/* line 244, ../sass/grid.scss */
+/* line 248, ../sass/grid.scss */
 .col-5 {
   width: 99.6%;
   font-size: 1rem;
@@ -930,18 +899,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 244, ../sass/grid.scss */
+  /* line 248, ../sass/grid.scss */
   .col-5 {
     width: 41.26667%;
     vertical-align: top;
   }
 }
 
-/* line 248, ../sass/grid.scss */
+/* line 252, ../sass/grid.scss */
 .col-6 {
   width: 99.6%;
   font-size: 1rem;
@@ -950,18 +918,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 248, ../sass/grid.scss */
+  /* line 252, ../sass/grid.scss */
   .col-6 {
     width: 49.6%;
     vertical-align: top;
   }
 }
 
-/* line 252, ../sass/grid.scss */
+/* line 256, ../sass/grid.scss */
 .col-7 {
   width: 99.6%;
   font-size: 1rem;
@@ -970,18 +937,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 252, ../sass/grid.scss */
+  /* line 256, ../sass/grid.scss */
   .col-7 {
     width: 57.93333%;
     vertical-align: top;
   }
 }
 
-/* line 256, ../sass/grid.scss */
+/* line 260, ../sass/grid.scss */
 .col-8 {
   width: 99.6%;
   font-size: 1rem;
@@ -990,18 +956,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 256, ../sass/grid.scss */
+  /* line 260, ../sass/grid.scss */
   .col-8 {
     width: 66.26667%;
     vertical-align: top;
   }
 }
 
-/* line 260, ../sass/grid.scss */
+/* line 264, ../sass/grid.scss */
 .col-9 {
   width: 99.6%;
   font-size: 1rem;
@@ -1010,18 +975,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 260, ../sass/grid.scss */
+  /* line 264, ../sass/grid.scss */
   .col-9 {
     width: 74.6%;
     vertical-align: top;
   }
 }
 
-/* line 264, ../sass/grid.scss */
+/* line 268, ../sass/grid.scss */
 .col-10 {
   width: 99.6%;
   font-size: 1rem;
@@ -1030,18 +994,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 264, ../sass/grid.scss */
+  /* line 268, ../sass/grid.scss */
   .col-10 {
     width: 82.93333%;
     vertical-align: top;
   }
 }
 
-/* line 268, ../sass/grid.scss */
+/* line 272, ../sass/grid.scss */
 .col-11 {
   width: 99.6%;
   font-size: 1rem;
@@ -1050,18 +1013,17 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 268, ../sass/grid.scss */
+  /* line 272, ../sass/grid.scss */
   .col-11 {
     width: 91.26667%;
     vertical-align: top;
   }
 }
 
-/* line 272, ../sass/grid.scss */
+/* line 276, ../sass/grid.scss */
 .col-12 {
   width: 99.6%;
   font-size: 1rem;
@@ -1070,11 +1032,10 @@ table {
   box-sizing: border-box;
   padding: 1em;
   margin: 0.2%;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
 }
 @media only screen and (min-width: 768px) {
-  /* line 272, ../sass/grid.scss */
+  /* line 276, ../sass/grid.scss */
   .col-12 {
     width: 99.6%;
     vertical-align: top;
@@ -1084,7 +1045,7 @@ table {
 /* line 4, ../sass/styles.scss */
 body {
   min-height: 100vh;
-  background: black;
+  background: #293f50;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 

@@ -24,8 +24,8 @@
   // padding-right: if($last, 0, $gap);
   margin: $margin-gap;
   // background: yellow;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #648880;
+  // color: white;
 
   @media only screen and (min-width: 768px) {
     width: percentage($col/$sum) - $margin-gap * 2;
@@ -47,6 +47,10 @@
 
 .container {
   @include container;
+}
+.main {
+  background: #fff;
+  min-width: 75%;
 }
 
 .row {
