@@ -1,0 +1,9 @@
+*/*.sass-cache/*
+sass-files/sass/ie.scss
+sass-files/sass/screen.scss
+sass-files/sass/print.scss
+sass-files/stylesheets/ie.css
+sass-files/stylesheets/screen.css
+sass-files/stylesheets/print.css
+*.rb
+*.html
